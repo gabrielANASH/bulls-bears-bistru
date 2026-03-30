@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-orbitron: 'Orbitron', monospace;
+  --font-inter: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0a0a0f;
+  color: #e0e0e0;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0f; }
+::-webkit-scrollbar-thumb { background: #00ff88; border-radius: 3px; }
+
+/* Grid pattern overlay */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(0,255,136,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,136,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Chart pattern */
+.chart-bg {
+  background:
+    linear-gradient(135deg, rgba(0,255,136,0.02) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(0,255,136,0.02) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(0,255,136,0.02) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(0,255,136,0.02) 25%, transparent 25%);
+  background-size: 80px 80px;
+}
+
+/* Neon text glow */
+.neon-green { color: #00ff88; text-shadow: 0 0 10px #00ff8866, 0 0 20px #00ff8833; }
+.neon-red { color: #ff3355; text-shadow: 0 0 10px #ff335566; }
+.neon-gold { color: #ffd700; text-shadow: 0 0 10px #ffd70066; }
+
+/* Glowing borders */
+.glow-border {
+  border: 1px solid rgba(0,255,136,0.3);
+  box-shadow: 0 0 10px rgba(0,255,136,0.1), inset 0 0 10px rgba(0,255,136,0.02);
+}
+
+.glow-border:hover {
+  border-color: rgba(0,255,136,0.6);
+  box-shadow: 0 0 20px rgba(0,255,136,0.2), inset 0 0 20px rgba(0,255,136,0.05);
+}
+
+/* Ticker animation */
+.ticker-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-content {
+  display: inline-block;
+  animation: ticker 40s linear infinite;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Blinking cursor */
+.blink {
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Scanline effect */
+.scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.1) 2px,
+    rgba(0,0,0,0.1) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Chart line SVG animation */
+.chart-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawLine 3s ease forwards;
+}
+@keyframes drawLine {
+  to { stroke-dashoffset: 0; }
+}
+
+/* Section headings */
+.section-label {
+  font-family: var(--font-orbitron);
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #00ff88;
+}
+
+/* Terminal style */
+.terminal-text {
+  font-family: 'Courier New', monospace;
+  color: #00ff88;
+}
+
+/* Card hover lift */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0,255,136,0.1);
+}
