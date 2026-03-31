@@ -63,7 +63,7 @@ export default function Navbar() {
           href="#menu"
           className="hidden md:flex items-center gap-1 text-xs font-orbitron font-bold px-4 py-2 bg-bull text-dark rounded-sm hover:bg-bull/90 transition-all hover:shadow-[0_0_15px_rgba(0,255,136,0.4)]"
         >
-          ORDER NOW
+          VIEW MENU
         </a>
 
         {/* Mobile burger */}
@@ -100,7 +100,7 @@ export default function Navbar() {
                 onClick={() => setOpen(false)}
                 className="text-xs font-orbitron font-bold px-4 py-2 bg-bull text-dark rounded-sm text-center"
               >
-                ORDER NOW
+                VIEW MENU
               </a>
             </div>
           </motion.div>

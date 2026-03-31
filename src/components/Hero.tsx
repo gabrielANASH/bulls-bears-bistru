@@ -135,7 +135,7 @@ export default function Hero() {
                 className="flex items-center gap-3 mb-4"
               >
                 <div className="w-8 h-[1px] bg-bull" />
-                <span className="section-label">COIMBATORE'S FIRST TRADING CAFÉ</span>
+                <span className="section-label">PERSONAL PORTFOLIO DEMO • CBE CAFE CONCEPT</span>
               </motion.div>
 
               {/* Main headline */}
@@ -161,7 +161,8 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="font-inter text-gray-400 text-base sm:text-lg max-w-md mb-8 leading-relaxed"
               >
-                Coimbatore's first stock market themed café — where great food meets the energy of the trading floor.
+                An unofficial portfolio redesign inspired by a real stock-market-themed cafe in Coimbatore.
+                Built as a personal project to showcase UI, UX, and frontend development.
               </motion.p>
 
               {/* Stat row */}

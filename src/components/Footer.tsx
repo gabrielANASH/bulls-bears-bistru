@@ -24,7 +24,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="font-inter text-gray-500 text-sm leading-relaxed max-w-xs mb-6">
-              Coimbatore's first stock market themed café. Where great food meets the energy of the trading floor.
+              Unofficial portfolio concept inspired by Bulls & Bears Bistro, a real cafe in Coimbatore.
+              This is a personal demo project.
             </p>
             <div className="font-orbitron text-xl font-bold text-white mb-2">
               "Trade Smart. <span className="text-bull">Eat Better.</span>"
@@ -107,7 +108,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/5 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="font-orbitron text-[10px] text-gray-700 tracking-widest">
-            © 2025 BULLS & BEARS BISTRO. ALL RIGHTS RESERVED.
+            © 2026 PERSONAL PORTFOLIO DEMO. UNOFFICIAL CONCEPT.
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1.5">
@@ -117,6 +118,10 @@ export default function Footer() {
             <span className="font-orbitron text-[10px] text-gray-700">RS PURAM EXCHANGE</span>
           </div>
         </div>
+        <p className="pb-8 font-inter text-xs text-gray-600 leading-relaxed max-w-4xl">
+          Disclaimer: This website is an independent personal portfolio project inspired by a real business in Coimbatore.
+          The actual shop already has its own official website. This demo is not affiliated with or endorsed by the business.
+        </p>
       </div>
     </footer>
   )

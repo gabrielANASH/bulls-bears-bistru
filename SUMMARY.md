@@ -173,7 +173,7 @@ Choose from ENHANCEMENT_GUIDE.md:
 ## 💡 Interview Talking Points (Ready to Use)
 
 ### "Tell me about a project you're proud of"
-*"I completely redesigned Bulls & Bears Bistro's website as a portfolio project. I identified UX pain points like poor mobile responsiveness and weak CTAs, then built a modern, conversion-focused solution. The result achieved 95+ Lighthouse scores and 100% mobile responsiveness. I'm particularly proud of the design system—it's completely reusable and scalable."*
+*"I built an unofficial portfolio redesign concept inspired by Bulls & Bears Bistro, while the actual business continues to run its own official website. I identified UX pain points like poor mobile responsiveness and weak CTAs, then built a modern, conversion-focused solution. The result achieved 95+ Lighthouse scores and 100% mobile responsiveness. I'm particularly proud of the design system because it's reusable and scalable."*
 
 ### "How do you approach performance?"
 *"I focus on three areas: reducing bundle size through code splitting, optimizing assets with Next.js Image component, and measuring with real metrics. On this project, I achieved <2s load times through these techniques."*

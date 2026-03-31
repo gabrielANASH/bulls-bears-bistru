@@ -9,7 +9,7 @@ Add this to your website footer and about pages:
 <!-- Add to Footer.tsx and About page -->
 <div className="disclaimer-notice">
   <p className="text-xs text-gray-400">
-    <strong>⚠️ Disclaimer:</strong> This is an independent, unofficial redesign concept created for portfolio and demonstration purposes only. This project is not affiliated with, endorsed by, or associated with Bulls & Bears Bistro, its owners, or official operations.
+   <strong>⚠️ Disclaimer:</strong> This is an independent, unofficial redesign concept created for portfolio and demonstration purposes only. The real shop already has its own official website. This project is not affiliated with, endorsed by, or associated with Bulls & Bears Bistro, its owners, or official operations.
   </p>
   <p className="text-xs text-gray-500 mt-2">
     This project showcases web design and development capabilities and is created solely for educational purposes. Use of this code is permitted under educational and portfolio use only. The developer bears no responsibility for any misuse of this project.
@@ -42,8 +42,8 @@ Add this to your website footer and about pages:
 ```
 🎨 Project: Bulls & Bears Bistro Redesign Concept
 
-Just launched a complete redesign concept for Bulls & Bears Bistro - 
-a stock market-themed café in Coimbatore.
+Just launched a personal redesign concept inspired by Bulls & Bears Bistro - 
+a stock market-themed cafe in Coimbatore.
 
 🎯 What I built:
 ✅ Modern, responsive website design
@@ -68,6 +68,7 @@ Framer Motion | Lucide Icons
 
 This is an independent project created for portfolio purposes 
 demonstrating modern web design and development practices.
+The actual business already has an official website.
 
 #WebDesign #UIDesign #NextJS #React #TypeScript #Frontend
 ```
@@ -122,6 +123,7 @@ VIEW:
 
 Note: This is an independent project created for portfolio purposes 
 showcasing design and development capabilities.
+The actual business already has its own official website.
 ```
 
 ### GitHub README Sections for Portfolio

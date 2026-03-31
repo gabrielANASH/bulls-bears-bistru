@@ -635,7 +635,7 @@ module.exports = {
 ### 1. **Project Showcase Sections**
 Add to README and portfolio:
 
-**Story**: *"I redesigned Bulls & Bears Bistro to demonstrate how strategic UX improvements and modern development practices can transform a business's online presence."*
+**Story**: *"I built an unofficial personal redesign concept inspired by Bulls & Bears Bistro to demonstrate how strategic UX improvements and modern development practices can transform a business-style web experience."*
 
 **Business Impact**:
 - 📱 Mobile-first responsive design (100+ device compatibility)

@@ -15,8 +15,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Bulls & Bears Bistro | Where Markets Meet Meals',
-  description: "Coimbatore's first stock market themed café. Premium food, great coffee, trading vibes.",
+  title: 'Bulls & Bears Bistro Demo | Personal Portfolio Project',
+  description: 'Unofficial personal redesign concept inspired by Bulls & Bears Bistro, a real cafe in Coimbatore.',
 }
 
 export default function RootLayout({
