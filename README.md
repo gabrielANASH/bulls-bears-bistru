@@ -28,6 +28,12 @@ The focus was on:
 - Framer Motion animations
 - TypeScript + Next.js App Router setup
 
+## Site Preview
+
+| Hero Section | About Section | Specials Section |
+|---|---|---|
+| ![Hero Section Preview](1.jpeg) | ![About Section Preview](2.jpeg) | ![Specials Section Preview](3.jpeg) |
+
 ## Tech Stack
 
 - Next.js 14
